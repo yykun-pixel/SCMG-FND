@@ -193,13 +193,6 @@ The model reports:
 - **Precision**: True positive rate
 - **Recall**: Sensitivity
 
-### Expected Results
-
-On FakeSV test set:
-- **Accuracy**: 89.11% ± 0.04%
-- **F1 Score**: 89.53% ± 0.05%
-- **Precision**: 90.73%
-- **Recall**: 88.27%
 
 ## Inference
 
@@ -352,7 +345,6 @@ This project is for academic research purposes only. See LICENSE file for detail
 
 ## Acknowledgements
 
-- This research was funded by National Natural Science Foundation of China, grant number U24B20147
 - We thank the anonymous reviewers for their valuable comments and suggestions
 - The FakeSV dataset creators for providing the benchmark dataset
 
