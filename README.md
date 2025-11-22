@@ -327,42 +327,6 @@ Currently optimized for **Chinese** short videos. For other languages:
 3. Retrain on language-specific datasets
 4. Adjust prompt templates for LLM-based credibility assessment
 
-## Experimental Results
-
-### Performance Comparison
-
-| Model | Accuracy (%) | F1 (%) | Precision (%) | Recall (%) |
-|-------|-------------|--------|---------------|------------|
-| MultiEMO | 82.05 | 81.87 | 82.58 | 82.30 |
-| FANVM | 82.32 | 81.97 | 82.84 | 83.12 |
-| SV-FEND | 81.69±0.07 | 81.78±0.08 | 81.92 | 84.63 |
-| OpEvFake | 87.80±0.05 | 87.71±0.06 | 88.01 | 87.90 |
-| **SCMG-FND (ours)** | **89.11±0.04** | **89.53±0.05** | **90.73** | **88.27** |
-
-*Note: p<0.01 based on paired t-test with OpEvFake*
-
-### Ablation Studies
-
-| Component Removed | Accuracy (%) | F1 (%) |
-|-------------------|-------------|--------|
-| w/o Transformer | 85.62 | 85.94 |
-| w/o Capsule | 84.40 | 84.21 |
-| w/o Enhancement | 81.53 | 81.87 |
-| w/o Prompt | 83.84 | 82.79 |
-| w/o Neuro | 87.92 | 88.27 |
-| w/o OpiEvo | 85.49 | 85.34 |
-| w/o Mgcl | 86.80 | 86.76 |
-| **Full Model** | **89.11** | **89.53** |
-
-### Granularity Analysis
-
-| Contrastive Loss Removed | Accuracy (%) | F1 (%) |
-|-------------------------|-------------|--------|
-| w/o Global | 87.47 | 87.94 |
-| w/o Modal | 88.12 | 89.10 |
-| w/o Temporal | 87.66 | 88.27 |
-| w/o Spatial | 88.78 | 88.19 |
-| **Full Model** | **89.11** | **89.53** |
 
 ## Limitations
 
